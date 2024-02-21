@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        Hexo博客搭建记录 |
+      Power by BinByZhang
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.122.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Power by BinByZhang" />
+  <meta
+    name="description"
+    content="(由于hexo主题存在太多兼容性问题和坑，已改用Hugo搭建博客) 利用hexo和gitee的 gitee page搭建个人博客"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/zhb.io/scss/main.min.26d8396ded3f4aa47cc8d77a9fcb09fee1d20d223c6b3f074a21c7e217bc8c6d.css"
+      integrity=""
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/fontawesome.min.7f3c2281c7f965ce3c64888aa452793252a0416909c181097f81d0a0f7d1624e.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/solid.min.35fc032da8ede6681675d20a2f862fb9e1045c1d512d495fcf862c054daffef2.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/regular.min.3b92357925ea7284f0c6b0378396f39f470f7842ed9702f337e667c4026bf837.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/brands.min.ebb1096e1976e8cc4e2532cfa050b8f30eb13b8eb06be5cee3e38eb426b838ea.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/zhb.io/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/zhb.io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/zhb.io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/zhb.io/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://nano-oss.github.io/zhb.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity=""
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/zhb.io/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity=""
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Hexo博客搭建记录"/>
+<meta name="twitter:description" content="(由于hexo主题存在太多兼容性问题和坑，已改用Hugo搭建博客) 利用hexo和gitee的 gitee page搭建个人博客"/>
+
+
+
+  
+  <meta property="og:title" content="Hexo博客搭建记录" />
+<meta property="og:description" content="(由于hexo主题存在太多兼容性问题和坑，已改用Hugo搭建博客) 利用hexo和gitee的 gitee page搭建个人博客" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nano-oss.github.io/zhb.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-02-18T13:44:50+08:00" />
+<meta property="article:modified_time" content="2024-02-18T13:44:50+08:00" /><meta property="og:site_name" content="Bin" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Hexo博客搭建记录",
+        "headline": "Hexo博客搭建记录",
+        "alternativeHeadline": "",
+        "description": "
+      (由于hexo主题存在太多兼容性问题和坑，已改用Hugo搭建博客) 利用hexo和gitee的 gitee page搭建个人博客
+
+
+    ",
+        "inLanguage": "zh-cn",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nano-oss.github.io\/zhb.io\/post\/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "copyrightYear" : "2024",
+        "dateCreated": "2024-02-18T13:44:50.00Z",
+        "datePublished": "2024-02-18T13:44:50.00Z",
+        "dateModified": "2024-02-18T13:44:50.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Power by BinByZhang",
+            "url": "https://nano-oss.github.io/zhb.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/nano-oss.github.io\/zhb.io\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/nano-oss.github.io\/zhb.io\/post\/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95\/",
+        "wordCount" : "137",
+        "genre" : [ 
+      
+      "博客搭建"
+
+    ],
+        "keywords" : [ 
+      
+      "博客搭建"
+
+    
+      
+        ,
+
+      
+      "技术分享"
+
+    ]
+    }
+  </script>
+
+
+
+  
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/zhb.io/img/header.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/zhb.io">Bin</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>路漫漫其修远兮，吾将上下而求索！</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/wx.jpg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="微信"
+            title="微信"
+          >
+            <i class="fab fa-weixin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://space.bilibili.com/1617463074"
+            target="_blank"
+            rel="noopener me"
+            aria-label="B站"
+            title="B站"
+          >
+            <i class="fab fa-bilibili fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://gitee.com/naonano"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Gitee"
+            title="Gitee"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/email.png"
+            target="_blank"
+            rel="noopener me"
+            aria-label="邮箱"
+            title="邮箱"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.zhihu.com/people/double-n-86"
+            target="_blank"
+            rel="noopener me"
+            aria-label="知乎"
+            title="知乎"
+          >
+            <i class="fab fa-zhihu fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/wxmp.jpg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="微信公众号"
+            title="微信公众号"
+          >
+            <i class="fab fa-squarespace fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Power by BinByZhang
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/"
+              
+              title=""
+              >首页</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/post/"
+              
+              title=""
+              >全部文章-时间线</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/categories/"
+              
+              title=""
+              >文章分类</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/tags/"
+              
+              title=""
+              >文章标签</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/download/"
+              
+              title=""
+              >文件分享</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/self/"
+              
+              title=""
+              >个人简历</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/about/"
+              
+              title=""
+              >关于</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Hexo博客搭建记录</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  Sun, Feb 18, 2024
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">One-minute read</span>
+          </li>
+        </ul>
+      <h1 id="参考链接">参考链接</h1>
+<p><a href="https://blog.csdn.net/weixin_45019350/article/details/121901433">https://blog.csdn.net/weixin_45019350/article/details/121901433</a>
+<a href="https://blog.csdn.net/qq_43580193/article/details/117341489">https://blog.csdn.net/qq_43580193/article/details/117341489</a>
+<a href="https://zhuanlan.zhihu.com/p/137338730#">https://zhuanlan.zhihu.com/p/137338730#</a></p>
+<h1 id="操作步骤">操作步骤：</h1>
+<p>1.安装环境依赖</p>
+<p>下载最新的nodejs手动安装：https://nodejs.org/en/download/
+wget <a href="https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-x64.tar.xz">https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-x64.tar.xz</a>
+sudo mkdir -p /usr/local/lib/nodejs
+sudo tar -xJvf node-v20.11.0-linux-x64.tar.xz -C /usr/local/lib/nodejs</p>
+<h1 id="添加环境变量-用户bashrc-系统etcprofile">添加环境变量 用户.bashrc 系统/etc/profile</h1>
+<p>sudo nano /home/zhb/.bashrc
+sudo nano /etc/profile</p>
+<h1 id="都要在最后加入下面这行">都要在最后加入下面这行</h1>
+<p>export PATH=/usr/local/lib/nodejs/node-v20.11.0-linux-x64/bin:$PATH
+source .bashrc
+source /etc/profile</p>
+<p>node -v  # 有显示版本信息即为成功</p>
+<p>安装git：
+sudo apt-get install git-core</p>
+<p>安装cnpm(非必须):
+npm install -g cnpm &ndash;registry=https://registry.npm.taobao.org</p>
+<p>2.安装hexo-cli
+npm install -g hexo-cli
+或者
+cnpm install -g hexo-cli</p>
+<p>验证： hexo -v</p>
+<p>3.初始化hexo
+hexo init myblog</p>
+<h1 id="这里大概率会出现git-clone失败的错误">这里大概率会出现git clone失败的错误</h1>
+<h1 id="改一下这个文件initjs把原来的git-url替换一下">改一下这个文件init.js,把原来的git url替换一下：</h1>
+<h1 id="const-git_repo_url--httpsgiteecomnaonanohexo-startergit">const GIT_REPO_URL = &lsquo;<a href="https://gitee.com/naonano/hexo-starter.git'">https://gitee.com/naonano/hexo-starter.git'</a></h1>
+<p>sudo nano /usr/local/lib/nodejs/node-v20.11.0-linux-x64/lib/node_modules/hexo-cli/dist/console/init.js
+之后重新执行上面 hexo init</p>
+<p>4.安装npm
+cd myblog
+npm install</p>
+<p>5.启动站点
+hexo g
+hexo server</p>
+<p>6.在gitee搭建站点
+gitee上创建仓库，仓库名称随意，路径设置为：用户名+.gitee.io
+例如： binbyzhang.gitee.io</p>
+<p>安装一个插件hexo-deployer
+npm install hexo-deployer-git &ndash;save</p>
+<p>修改hexo配置文件指定仓库路径
+sudo nano _config.yml
+添加以下内容：
+deploy:
+type: git
+repo: <a href="https://gitee.com/naonano/binbyzhang.gitee.io.git">https://gitee.com/naonano/binbyzhang.gitee.io.git</a>
+branch: master</p>
+<p>推送站点文件到gitee
+git config &ndash;global user.email &ldquo;<a href="mailto:2231637869@qq.com">2231637869@qq.com</a>&rdquo;
+git config &ndash;global user.name &ldquo;naonano&rdquo;
+git config &ndash;global user.password &quot; &quot;
+hexo d
+输入gitee账号和密码
+然后开启仓库的 gitee pages服务</p>
+<p>7.访问测试
+<a href="https://naonano.gitee.io/binbyzhang.gitee.io/">https://naonano.gitee.io/binbyzhang.gitee.io/</a></p>
+
+
+  <h2> </h2>
+  <h3>-------------</h3>
+  <h3>相关文章推荐: </h3>
+  <ul>
+    
+      <li><a href="/zhb.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">Hugo搭建个人博客</a></li>
+    
+      <li><a href="/zhb.io/post/win10%E4%B8%8B%E6%89%B9%E9%87%8F%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80/">win10下批量修改文件后缀</a></li>
+    
+  </ul>
+
+</div>
+    <div class="post__footer">
+      
+        <span><a class="category" href="/zhb.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a></span>
+
+
+      
+
+      
+        <span><a class="tag" href="/zhb.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a><a class="tag" href="/zhb.io/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Power by BinByZhang
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

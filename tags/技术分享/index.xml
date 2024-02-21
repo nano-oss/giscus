@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术分享 on Bin&#39;s Blog</title>
+    <link>https://nano-oss.github.io/zhb.io/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</link>
+    <description>Recent content in 技术分享 on Bin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>2000-{{ YEAR }}</copyright>
+    <lastBuildDate>Tue, 20 Feb 2024 13:44:50 +0800</lastBuildDate><atom:link href="https://nano-oss.github.io/zhb.io/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo搭建个人博客</title>
+      <link>https://nano-oss.github.io/zhb.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 20 Feb 2024 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>参考链接 https://www.gohugo.org/ https://www.gohugo.org/doc/ https://themes.gohugo.io/themes/anatole/ https://github.com/lxndrblz/anatole/wiki/1%EF%B8%8F%E2%83%A3-Essential-Steps https://fontawesome.com/ https://smc.im/post/resolve-integrity-error-in-hugo/ https://markdown.com.cn/	(markdown语法教程) https://huweim.github.io/post/blog_hugo_%E6%96%87%E7%AB%A0%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83/
+创建新文章 hugo new post/first.md
+调试页面 修改完内容和配置后运行以下命令，会实时渲染 hugo server &amp;ndash;buildDrafts
+&amp;ndash;theme 选择哪个皮肤; &amp;ndash;buildDrafts 由于想显示我们的内容，包括设置了 draft 草稿状态的内容。
+部署静态页面到gitee或github (每次修改配置或发布文章都需要按照以下步骤重新部署，且需要先删除public目录)
+hugo &amp;ndash;buildDrafts 或者 hugo &amp;ndash;buildDrafts &amp;ndash;theme=anatole &amp;ndash;baseURL=&amp;ldquo;https://naonano.gitee.io/zhb.gitee.io/&amp;quot;
+cd .\public
+git init git remote add origin https://gitee.com/naonano/zhb.gitee.io.git git add . git commit -m &amp;ldquo;lastest commit&amp;rdquo; git push &amp;ndash;force -u origin master</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexo博客搭建记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 18 Feb 2024 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>(由于hexo主题存在太多兼容性问题和坑，已改用Hugo搭建博客) 利用hexo和gitee的 gitee page搭建个人博客</description>
+      
+    </item>
+    
+  </channel>
+</rss>

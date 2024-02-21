@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        马捷J4125软路由相关记录 |
+      Power by BinByZhang
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.122.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Power by BinByZhang" />
+  <meta
+    name="description"
+    content="路漫漫其修远兮，吾将上下而求索！"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/zhb.io/scss/main.min.26d8396ded3f4aa47cc8d77a9fcb09fee1d20d223c6b3f074a21c7e217bc8c6d.css"
+      integrity=""
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/fontawesome.min.7f3c2281c7f965ce3c64888aa452793252a0416909c181097f81d0a0f7d1624e.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/solid.min.35fc032da8ede6681675d20a2f862fb9e1045c1d512d495fcf862c054daffef2.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/regular.min.3b92357925ea7284f0c6b0378396f39f470f7842ed9702f337e667c4026bf837.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/brands.min.ebb1096e1976e8cc4e2532cfa050b8f30eb13b8eb06be5cee3e38eb426b838ea.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/zhb.io/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/zhb.io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/zhb.io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/zhb.io/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://nano-oss.github.io/zhb.io/post/%E9%A9%AC%E6%8D%B7j4125%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity=""
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/zhb.io/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity=""
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="马捷J4125软路由相关记录"/>
+<meta name="twitter:description" content="马捷J4125软路由相关记录 -
+相关域名 - pve主页： https://10.0.0.5:8006 root-zhbzhb123zhb openwrt后台： 10.0.0.10 root-zhbzhb 群晖界面： 10.0.0.222:5000 QNAS-zhbzhb123ZHB
+参考链接 - https://www.yuque.com/taizhourenjia/rlf0nw/crkhri https://zhuanlan.zhihu.com/p/526289100
+安装pve - 镜像下载地址：https://www.proxmox.com/en/downloads 安装教程：https://blog.csdn.net/xuehu96/article/details/128888993 换源：https://www.jianshu.com/p/6a4cbe2c417e x86派论坛大佬脚本：https://bbs.x86pi.cn/thread?topicId=20
+openwrt相关固件收集x86 - 相关知识： https://zhuanlan.zhihu.com/p/425228726 安装教程： https://post.smzdm.com/p/apze0rw2/ 记得进入op系统之后先在后台修改lan的ip和本地网络同个网段才能够浏览器进入后台， vi /etc/config/network修改后重启即可 旁路由设置：https://www.right.com.cn/FORUM/thread-4181997-3-1.html 机场插件设置：https://233network.gitbook.io/untitled/lu-you-qi-duan/passwallpasswall2-she-zhi
+收集的固件种类： 1.sirpdboy版本固件，种类齐全，有电报交流群 https://github.com/sirpdboy/openwrt https://www.right.com.cn/forum/thread-8250453-1-1.html 2.恩山lusty大佬版本 https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8294462&amp;extra=page%3D1&amp;page=1
+安装群晖(内含docker、nas、jellyfin) - 教程：https://zhuanlan.zhihu.com/p/639066104 https://zhuanlan.zhihu.com/p/634635408 https://github.com/fbelavenuto/arpl https://github.com/wjz304/arpl-zh_CN?tab=readme-ov-file https://kb.synology.cn/zh-cn/DSM/tutorial/Why_cant_I_connect_to_Package_Center 设置显卡直通： https://www.right.com.cn/FORUM/thread-5647264-1-1.html
+安装ubuntu-server -
+安装ubuntu-desktop -
+安装win10 -
+安装MAC黑苹果系统 -
+问题 - 1.无法识别m.2 NVME固态硬盘的问题(bios和安装系统界面皆看不到) 检查BIOS中的-Chipset-&gt;PCI Express Configuration-&gt;PCI Express Root Port是否开启 如果还不行就关闭安全启动试试，还不可以那就说明不兼容"/>
+
+
+
+  
+  <meta property="og:title" content="马捷J4125软路由相关记录" />
+<meta property="og:description" content="马捷J4125软路由相关记录 -
+相关域名 - pve主页： https://10.0.0.5:8006 root-zhbzhb123zhb openwrt后台： 10.0.0.10 root-zhbzhb 群晖界面： 10.0.0.222:5000 QNAS-zhbzhb123ZHB
+参考链接 - https://www.yuque.com/taizhourenjia/rlf0nw/crkhri https://zhuanlan.zhihu.com/p/526289100
+安装pve - 镜像下载地址：https://www.proxmox.com/en/downloads 安装教程：https://blog.csdn.net/xuehu96/article/details/128888993 换源：https://www.jianshu.com/p/6a4cbe2c417e x86派论坛大佬脚本：https://bbs.x86pi.cn/thread?topicId=20
+openwrt相关固件收集x86 - 相关知识： https://zhuanlan.zhihu.com/p/425228726 安装教程： https://post.smzdm.com/p/apze0rw2/ 记得进入op系统之后先在后台修改lan的ip和本地网络同个网段才能够浏览器进入后台， vi /etc/config/network修改后重启即可 旁路由设置：https://www.right.com.cn/FORUM/thread-4181997-3-1.html 机场插件设置：https://233network.gitbook.io/untitled/lu-you-qi-duan/passwallpasswall2-she-zhi
+收集的固件种类： 1.sirpdboy版本固件，种类齐全，有电报交流群 https://github.com/sirpdboy/openwrt https://www.right.com.cn/forum/thread-8250453-1-1.html 2.恩山lusty大佬版本 https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8294462&amp;extra=page%3D1&amp;page=1
+安装群晖(内含docker、nas、jellyfin) - 教程：https://zhuanlan.zhihu.com/p/639066104 https://zhuanlan.zhihu.com/p/634635408 https://github.com/fbelavenuto/arpl https://github.com/wjz304/arpl-zh_CN?tab=readme-ov-file https://kb.synology.cn/zh-cn/DSM/tutorial/Why_cant_I_connect_to_Package_Center 设置显卡直通： https://www.right.com.cn/FORUM/thread-5647264-1-1.html
+安装ubuntu-server -
+安装ubuntu-desktop -
+安装win10 -
+安装MAC黑苹果系统 -
+问题 - 1.无法识别m.2 NVME固态硬盘的问题(bios和安装系统界面皆看不到) 检查BIOS中的-Chipset-&gt;PCI Express Configuration-&gt;PCI Express Root Port是否开启 如果还不行就关闭安全启动试试，还不可以那就说明不兼容" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nano-oss.github.io/zhb.io/post/%E9%A9%AC%E6%8D%B7j4125%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-01-18T13:44:50+08:00" />
+<meta property="article:modified_time" content="2023-01-18T13:44:50+08:00" /><meta property="og:site_name" content="Bin" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "马捷J4125软路由相关记录",
+        "headline": "马捷J4125软路由相关记录",
+        "alternativeHeadline": "",
+        "description": "
+      
+        马捷J4125软路由相关记录 -\n相关域名 - pve主页： https:\/\/10.0.0.5:8006 root-zhbzhb123zhb openwrt后台： 10.0.0.10 root-zhbzhb 群晖界面： 10.0.0.222:5000 QNAS-zhbzhb123ZHB\n参考链接 - https:\/\/www.yuque.com\/taizhourenjia\/rlf0nw\/crkhri https:\/\/zhuanlan.zhihu.com\/p\/526289100\n安装pve - 镜像下载地址：https:\/\/www.proxmox.com\/en\/downloads 安装教程：https:\/\/blog.csdn.net\/xuehu96\/article\/details\/128888993 换源：https:\/\/www.jianshu.com\/p\/6a4cbe2c417e x86派论坛大佬脚本：https:\/\/bbs.x86pi.cn\/thread?topicId=20\nopenwrt相关固件收集x86 - 相关知识： https:\/\/zhuanlan.zhihu.com\/p\/425228726 安装教程： https:\/\/post.smzdm.com\/p\/apze0rw2\/ 记得进入op系统之后先在后台修改lan的ip和本地网络同个网段才能够浏览器进入后台， vi \/etc\/config\/network修改后重启即可 旁路由设置：https:\/\/www.right.com.cn\/FORUM\/thread-4181997-3-1.html 机场插件设置：https:\/\/233network.gitbook.io\/untitled\/lu-you-qi-duan\/passwallpasswall2-she-zhi\n收集的固件种类： 1.sirpdboy版本固件，种类齐全，有电报交流群 https:\/\/github.com\/sirpdboy\/openwrt https:\/\/www.right.com.cn\/forum\/thread-8250453-1-1.html 2.恩山lusty大佬版本 https:\/\/www.right.com.cn\/forum\/forum.php?mod=viewthread\u0026amp;tid=8294462\u0026amp;extra=page%3D1\u0026amp;page=1\n安装群晖(内含docker、nas、jellyfin) - 教程：https:\/\/zhuanlan.zhihu.com\/p\/639066104 https:\/\/zhuanlan.zhihu.com\/p\/634635408 https:\/\/github.com\/fbelavenuto\/arpl https:\/\/github.com\/wjz304\/arpl-zh_CN?tab=readme-ov-file https:\/\/kb.synology.cn\/zh-cn\/DSM\/tutorial\/Why_cant_I_connect_to_Package_Center 设置显卡直通： https:\/\/www.right.com.cn\/FORUM\/thread-5647264-1-1.html\n安装ubuntu-server -\n安装ubuntu-desktop -\n安装win10 -\n安装MAC黑苹果系统 -\n问题 - 1.无法识别m.2 NVME固态硬盘的问题(bios和安装系统界面皆看不到) 检查BIOS中的-Chipset-\u0026gt;PCI Express Configuration-\u0026gt;PCI Express Root Port是否开启 如果还不行就关闭安全启动试试，还不可以那就说明不兼容
+
+
+      
+
+
+    ",
+        "inLanguage": "zh-cn",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nano-oss.github.io\/zhb.io\/post\/%E9%A9%AC%E6%8D%B7j4125%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-01-18T13:44:50.00Z",
+        "datePublished": "2023-01-18T13:44:50.00Z",
+        "dateModified": "2023-01-18T13:44:50.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Power by BinByZhang",
+            "url": "https://nano-oss.github.io/zhb.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/nano-oss.github.io\/zhb.io\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/nano-oss.github.io\/zhb.io\/post\/%E9%A9%AC%E6%8D%B7j4125%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95\/",
+        "wordCount" : "68",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+  
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/zhb.io/img/header.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/zhb.io">Bin</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>路漫漫其修远兮，吾将上下而求索！</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/wx.jpg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="微信"
+            title="微信"
+          >
+            <i class="fab fa-weixin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://space.bilibili.com/1617463074"
+            target="_blank"
+            rel="noopener me"
+            aria-label="B站"
+            title="B站"
+          >
+            <i class="fab fa-bilibili fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://gitee.com/naonano"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Gitee"
+            title="Gitee"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/email.png"
+            target="_blank"
+            rel="noopener me"
+            aria-label="邮箱"
+            title="邮箱"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.zhihu.com/people/double-n-86"
+            target="_blank"
+            rel="noopener me"
+            aria-label="知乎"
+            title="知乎"
+          >
+            <i class="fab fa-zhihu fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/wxmp.jpg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="微信公众号"
+            title="微信公众号"
+          >
+            <i class="fab fa-squarespace fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Power by BinByZhang
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/"
+              
+              title=""
+              >首页</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/post/"
+              
+              title=""
+              >全部文章-时间线</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/categories/"
+              
+              title=""
+              >文章分类</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/tags/"
+              
+              title=""
+              >文章标签</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/download/"
+              
+              title=""
+              >文件分享</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/self/"
+              
+              title=""
+              >个人简历</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/about/"
+              
+              title=""
+              >关于</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>马捷J4125软路由相关记录</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  Wed, Jan 18, 2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">One-minute read</span>
+          </li>
+        </ul>
+      <div class="alert">
+      <div class="alert__indicator">!</div>
+      Warning: This post is over 365 days old. The information may be out of date.
+    </div><ul>
+<li>
+<p>马捷J4125软路由相关记录 -</p>
+</li>
+<li>
+<p>相关域名 -
+pve主页： https://10.0.0.5:8006 root-zhbzhb123zhb
+openwrt后台： 10.0.0.10 root-zhbzhb
+群晖界面： 10.0.0.222:5000 QNAS-zhbzhb123ZHB</p>
+</li>
+<li>
+<p>参考链接 -
+<a href="https://www.yuque.com/taizhourenjia/rlf0nw/crkhri">https://www.yuque.com/taizhourenjia/rlf0nw/crkhri</a>
+<a href="https://zhuanlan.zhihu.com/p/526289100">https://zhuanlan.zhihu.com/p/526289100</a></p>
+</li>
+<li>
+<p>安装pve -
+镜像下载地址：https://www.proxmox.com/en/downloads
+安装教程：https://blog.csdn.net/xuehu96/article/details/128888993
+换源：https://www.jianshu.com/p/6a4cbe2c417e
+x86派论坛大佬脚本：https://bbs.x86pi.cn/thread?topicId=20</p>
+</li>
+<li>
+<p>openwrt相关固件收集x86 -
+相关知识：
+<a href="https://zhuanlan.zhihu.com/p/425228726">https://zhuanlan.zhihu.com/p/425228726</a>
+安装教程：
+<a href="https://post.smzdm.com/p/apze0rw2/">https://post.smzdm.com/p/apze0rw2/</a>
+记得进入op系统之后先在后台修改lan的ip和本地网络同个网段才能够浏览器进入后台，
+vi /etc/config/network修改后重启即可
+旁路由设置：https://www.right.com.cn/FORUM/thread-4181997-3-1.html
+机场插件设置：https://233network.gitbook.io/untitled/lu-you-qi-duan/passwallpasswall2-she-zhi</p>
+</li>
+</ul>
+<p>收集的固件种类：
+1.sirpdboy版本固件，种类齐全，有电报交流群
+<a href="https://github.com/sirpdboy/openwrt">https://github.com/sirpdboy/openwrt</a>
+<a href="https://www.right.com.cn/forum/thread-8250453-1-1.html">https://www.right.com.cn/forum/thread-8250453-1-1.html</a>
+2.恩山lusty大佬版本
+<a href="https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8294462&amp;extra=page%3D1&amp;page=1">https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;tid=8294462&amp;extra=page%3D1&amp;page=1</a></p>
+<ul>
+<li>
+<p>安装群晖(内含docker、nas、jellyfin) -
+教程：https://zhuanlan.zhihu.com/p/639066104
+<a href="https://zhuanlan.zhihu.com/p/634635408">https://zhuanlan.zhihu.com/p/634635408</a>
+<a href="https://github.com/fbelavenuto/arpl">https://github.com/fbelavenuto/arpl</a>
+<a href="https://github.com/wjz304/arpl-zh_CN?tab=readme-ov-file">https://github.com/wjz304/arpl-zh_CN?tab=readme-ov-file</a>
+<a href="https://kb.synology.cn/zh-cn/DSM/tutorial/Why_cant_I_connect_to_Package_Center">https://kb.synology.cn/zh-cn/DSM/tutorial/Why_cant_I_connect_to_Package_Center</a>
+设置显卡直通：
+<a href="https://www.right.com.cn/FORUM/thread-5647264-1-1.html">https://www.right.com.cn/FORUM/thread-5647264-1-1.html</a></p>
+</li>
+<li>
+<p>安装ubuntu-server -</p>
+</li>
+<li>
+<p>安装ubuntu-desktop -</p>
+</li>
+<li>
+<p>安装win10 -</p>
+</li>
+<li>
+<p>安装MAC黑苹果系统 -</p>
+</li>
+<li>
+<p>问题 -
+1.无法识别m.2 NVME固态硬盘的问题(bios和安装系统界面皆看不到)
+检查BIOS中的-Chipset-&gt;PCI Express Configuration-&gt;PCI Express Root Port是否开启
+如果还不行就关闭安全启动试试，还不可以那就说明不兼容</p>
+</li>
+</ul>
+
+
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Power by BinByZhang
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

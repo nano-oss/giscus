@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        Klipper安装指南 |
+      Power by BinByZhang
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.122.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Power by BinByZhang" />
+  <meta
+    name="description"
+    content="路漫漫其修远兮，吾将上下而求索！"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/zhb.io/scss/main.min.26d8396ded3f4aa47cc8d77a9fcb09fee1d20d223c6b3f074a21c7e217bc8c6d.css"
+      integrity=""
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/fontawesome.min.7f3c2281c7f965ce3c64888aa452793252a0416909c181097f81d0a0f7d1624e.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/solid.min.35fc032da8ede6681675d20a2f862fb9e1045c1d512d495fcf862c054daffef2.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/regular.min.3b92357925ea7284f0c6b0378396f39f470f7842ed9702f337e667c4026bf837.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/zhb.io/fontawesome/css/brands.min.ebb1096e1976e8cc4e2532cfa050b8f30eb13b8eb06be5cee3e38eb426b838ea.css"
+    integrity=""
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/zhb.io/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/zhb.io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/zhb.io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/zhb.io/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://nano-oss.github.io/zhb.io/post/klipper_install/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity=""
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/zhb.io/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity=""
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Klipper安装指南"/>
+<meta name="twitter:description" content="香橙派镜像下载地址： http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-2.html
+canbus-ebb刷机教程: https://www.bilibili.com/video/BV1tN4y1F7wo/?vd_source=83eaf6e4edc3987cb641faad4036a9f3
+N1盒子安装Armbian系统教程： https://www.right.com.cn/forum/thread-510423-1-1.html https://post.smzdm.com/p/alpwnxmp/
+sudo adduser klipper （sudo userdel -r username） sudo usermod -a -G adm klipper sudo usermod -a -G sudo klipper sudo gpasswd &ndash;add klipper dialout su - klipper
+git clone https://github.com/th33xitus/kiauh.git git clone https://gitee.com/miroky/kiauh.git(速度快) sudo apt install git tree gcc g&#43;&#43; make cmake // bash &lt;(curl -fsSL http://klipper.7130404.xyz:8001/add_webcam.sh)
+换shell cat /etc/shells sudo usermod -s /bin/bash username 或chsh -s /bin/bash
+查看端口 ls /dev/serial/by-id/*
+换源 https://mirrors.tuna.tsinghua.edu.cn/help/debian/"/>
+
+
+
+  
+  <meta property="og:title" content="Klipper安装指南" />
+<meta property="og:description" content="香橙派镜像下载地址： http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-2.html
+canbus-ebb刷机教程: https://www.bilibili.com/video/BV1tN4y1F7wo/?vd_source=83eaf6e4edc3987cb641faad4036a9f3
+N1盒子安装Armbian系统教程： https://www.right.com.cn/forum/thread-510423-1-1.html https://post.smzdm.com/p/alpwnxmp/
+sudo adduser klipper （sudo userdel -r username） sudo usermod -a -G adm klipper sudo usermod -a -G sudo klipper sudo gpasswd &ndash;add klipper dialout su - klipper
+git clone https://github.com/th33xitus/kiauh.git git clone https://gitee.com/miroky/kiauh.git(速度快) sudo apt install git tree gcc g&#43;&#43; make cmake // bash &lt;(curl -fsSL http://klipper.7130404.xyz:8001/add_webcam.sh)
+换shell cat /etc/shells sudo usermod -s /bin/bash username 或chsh -s /bin/bash
+查看端口 ls /dev/serial/by-id/*
+换源 https://mirrors.tuna.tsinghua.edu.cn/help/debian/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nano-oss.github.io/zhb.io/post/klipper_install/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-05-05T13:44:50+08:00" />
+<meta property="article:modified_time" content="2023-05-05T13:44:50+08:00" /><meta property="og:site_name" content="Bin" />
+
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Klipper安装指南",
+        "headline": "Klipper安装指南",
+        "alternativeHeadline": "",
+        "description": "
+      
+        香橙派镜像下载地址： http:\/\/www.orangepi.cn\/html\/hardWare\/computerAndMicrocontrollers\/service-and-support\/Orange-Pi-Zero-2.html\ncanbus-ebb刷机教程: https:\/\/www.bilibili.com\/video\/BV1tN4y1F7wo\/?vd_source=83eaf6e4edc3987cb641faad4036a9f3\nN1盒子安装Armbian系统教程： https:\/\/www.right.com.cn\/forum\/thread-510423-1-1.html https:\/\/post.smzdm.com\/p\/alpwnxmp\/\nsudo adduser klipper （sudo userdel -r username） sudo usermod -a -G adm klipper sudo usermod -a -G sudo klipper sudo gpasswd \u0026ndash;add klipper dialout su - klipper\ngit clone https:\/\/github.com\/th33xitus\/kiauh.git git clone https:\/\/gitee.com\/miroky\/kiauh.git(速度快) sudo apt install git tree gcc g\u002b\u002b make cmake \/\/ bash \u0026lt;(curl -fsSL http:\/\/klipper.7130404.xyz:8001\/add_webcam.sh)\n换shell cat \/etc\/shells sudo usermod -s \/bin\/bash username 或chsh -s \/bin\/bash\n查看端口 ls \/dev\/serial\/by-id\/*\n换源 https:\/\/mirrors.tuna.tsinghua.edu.cn\/help\/debian\/
+
+
+      
+
+
+    ",
+        "inLanguage": "zh-cn",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/nano-oss.github.io\/zhb.io\/post\/klipper_install\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Power by BinByZhang"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-05-05T13:44:50.00Z",
+        "datePublished": "2023-05-05T13:44:50.00Z",
+        "dateModified": "2023-05-05T13:44:50.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Power by BinByZhang",
+            "url": "https://nano-oss.github.io/zhb.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/nano-oss.github.io\/zhb.io\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/nano-oss.github.io\/zhb.io\/post\/klipper_install\/",
+        "wordCount" : "363",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+  
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/zhb.io/img/header.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/zhb.io">Bin</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>路漫漫其修远兮，吾将上下而求索！</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/wx.jpg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="微信"
+            title="微信"
+          >
+            <i class="fab fa-weixin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://space.bilibili.com/1617463074"
+            target="_blank"
+            rel="noopener me"
+            aria-label="B站"
+            title="B站"
+          >
+            <i class="fab fa-bilibili fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://gitee.com/naonano"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Gitee"
+            title="Gitee"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/email.png"
+            target="_blank"
+            rel="noopener me"
+            aria-label="邮箱"
+            title="邮箱"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.zhihu.com/people/double-n-86"
+            target="_blank"
+            rel="noopener me"
+            aria-label="知乎"
+            title="知乎"
+          >
+            <i class="fab fa-zhihu fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="img/wxmp.jpg"
+            target="_blank"
+            rel="noopener me"
+            aria-label="微信公众号"
+            title="微信公众号"
+          >
+            <i class="fab fa-squarespace fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Power by BinByZhang
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/"
+              
+              title=""
+              >首页</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/post/"
+              
+              title=""
+              >全部文章-时间线</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/categories/"
+              
+              title=""
+              >文章分类</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/tags/"
+              
+              title=""
+              >文章标签</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/download/"
+              
+              title=""
+              >文件分享</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/self/"
+              
+              title=""
+              >个人简历</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/zhb.io/about/"
+              
+              title=""
+              >关于</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Klipper安装指南</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  Fri, May 5, 2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+      <p>香橙派镜像下载地址：
+<a href="http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-2.html">http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-2.html</a></p>
+<p>canbus-ebb刷机教程:
+<a href="https://www.bilibili.com/video/BV1tN4y1F7wo/?vd_source=83eaf6e4edc3987cb641faad4036a9f3">https://www.bilibili.com/video/BV1tN4y1F7wo/?vd_source=83eaf6e4edc3987cb641faad4036a9f3</a></p>
+<p>N1盒子安装Armbian系统教程：
+<a href="https://www.right.com.cn/forum/thread-510423-1-1.html">https://www.right.com.cn/forum/thread-510423-1-1.html</a>
+<a href="https://post.smzdm.com/p/alpwnxmp/">https://post.smzdm.com/p/alpwnxmp/</a></p>
+<p>sudo adduser klipper
+（sudo userdel -r username）
+sudo usermod -a -G adm klipper
+sudo usermod -a -G sudo klipper
+sudo gpasswd &ndash;add klipper dialout
+su - klipper</p>
+<p>git clone <a href="https://github.com/th33xitus/kiauh.git">https://github.com/th33xitus/kiauh.git</a>
+git clone <a href="https://gitee.com/miroky/kiauh.git(">https://gitee.com/miroky/kiauh.git(</a>速度快)
+sudo apt install git tree gcc g++ make cmake
+// bash &lt;(curl -fsSL <a href="http://klipper.7130404.xyz:8001/add_webcam.sh">http://klipper.7130404.xyz:8001/add_webcam.sh</a>)</p>
+<p>换shell
+cat /etc/shells
+sudo usermod -s /bin/bash username
+或chsh -s /bin/bash</p>
+<p>查看端口
+ls /dev/serial/by-id/*</p>
+<p>换源
+<a href="https://mirrors.tuna.tsinghua.edu.cn/help/debian/">https://mirrors.tuna.tsinghua.edu.cn/help/debian/</a></p>
+<p>连接wifi
+nmtui-connect</p>
+<p>更改python默认版本指向
+sudo update-alternatives &ndash;install /usr/bin/python3 python3 /usr/bin/python3.8 1</p>
+<p>PID校准
+热床：
+TURN_OFF_HEATERS
+PID_CALIBRATE HEATER=heater_bed TARGET=60
+SAVE_CONFIG</p>
+<p>喷嘴：extruder
+TURN_OFF_HEATERS
+PID_CALIBRATE HEATER=extruder TARGET=200
+SAVE_CONFIG</p>
+<p>klipper显示mcu+主板温度：
+[temperature_sensor server_temp]
+sensor_type: temperature_host
+min_temp: 0
+max_temp: 100</p>
+<p>[temperature_sensor mcu_temp]
+sensor_type: temperature_mcu
+min_temp: 0
+max_temp: 100</p>
+<p>问题：</p>
+<ol>
+<li>无法识别到mcu串口(查找过后发现是串口权限问题，klipper用户一直无法打开串口)
+将查看串口是否映射到了其他串口，检查该串口是否有权限读写</li>
+</ol>
+<ul>
+<li>使用chmod 777 ttyACM0 和 chmod 777 /dev/serial/by-id/* 提升权限即可解决</li>
+<li>针对有些系统重启之后恢复权限的缺陷，完美解决方法：
+sudo nano /etc/rc.local    #写入以下内容
+sudo chown klipper /dev/tty*
+sudo chgrp klipper /dev/tty*
+sudo chmod 777 /dev/tty*
+保存退出，输入sync同步一下
+sudo reboot    #重启系统查看是否正常</li>
+</ul>
+<ol start="2">
+<li>
+<p>无法使用摄像头：
+进入/kiauh/mjpg-streamer目录下，尝试运行start.sh，如果出错，需要修改其中的显示语句，
+并将脚本按照以下步骤写入开机启动文件：
+sudo nano /etc/rc.local
+写入以下内容：
+cd /home/orangepi/mjpg-streamer
+./start.sh</p>
+</li>
+<li>
+<p>无法导入配置文件的错误：internal server err
+一般是moonraker出了问题，数据库混乱或没有权限(常见)
+解决：删除.moonraker_database或者重装之后登录网页在通知里输入密码即可</p>
+</li>
+<li>
+<p>BLtouch自动调平
+[bltouch]
+sensor_pin: ^PD2
+control_pin:
+z_offset:
+x_offset:
+y_offset:</p>
+</li>
+</ol>
+<p>去除耗材残留，冷却到室温，先正常用纸调平
+修改z轴position_min: -1
+找一张10*10cm的纸，在中间点一个点，打印机x,y归位
+移动挤出头的指针到点的位置，记录坐标，再移动3dtouch到点的位置，在打印机控制面板查看x/y的偏移,用现在的位置减去之前的位置(移动挤出头的指针到点的位置),填入x_offset/y_offset
+先把Z_offset:1，复位打印机，之后探针会反复弹起，</p>
+<p>测试正常工作：
+BLTOUCH_DEBUG COMMAND=pin_down
+BLTOUCH_DEBUG COMMAND=pin_up
+BLTOUCH_DEBUG COMMAND=pin_down
+BLTOUCH_DEBUG COMMAND=touch_mode
+QUERY_PROBE
+手指触摸BLTOUCH看是否缩回
+QUERY_PROBE查看是否触发</p>
+<p>移动z轴远离热床
+输入PROBE_CALIBRATE,探针弹出，z轴向下移动，然后触碰探针缩回，z轴停止，说明正常</p>
+<ol start="5">
+<li>
+<p>修复apt安装依赖破碎：
+sudo apt &ndash;fix-broken install</p>
+</li>
+<li>
+<p>armbian安装python3.8：
+sudo apt-get install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev
+sudo wget <a href="https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz">https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tgz</a>
+sudo tar -zxvf Python-3.8.5.tgz
+cd Python-3.8.5
+sudo ./configure &ndash;prefix=/usr/local/python3 &amp;&amp; make &amp;&amp; make install
+sudo ln -s /usr/local/python3/bin/python3 /usr/local/bin/python3
+sudo ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip3</p>
+</li>
+<li>
+<p>问题：安装klipper时出现错误 Creation of Klipper virtualenv failed!
+sudo apt remove virtualenv python-virtualenv python3-virtualenv
+sudo pip uninstall virtualenv
+sudo pip3 install setuptools
+sudo pip3 install virtualenv
+sudo apt install virtualenv python-virtualenv python3-virtualenv
+virtualenv &ndash;download -p python3 ~/klippy-env/
+之后重新运行kiauh脚本即可</p>
+</li>
+<li>
+<p>问题：安装klipper时出现错误Creation of Moonraker virtualenv failed！
+sudo apt remove virtualenv python-virtualenv python3-virtualenv
+sudo pip uninstall virtualenv
+sudo pip3 install setuptools
+sudo pip3 install virtualenv
+virtualenv &ndash;download -p python3 ~/moonraker-env/</p>
+</li>
+</ol>
+<p>9.安装klipper的moonraker时出现“The headers or library files could not be found for jpeg或 The headers or library files could not be found for zlib”问题，导致无法安装pillow
+相关链接：
+<a href="https://pillow.readthedocs.io/en/latest/installation.html">https://pillow.readthedocs.io/en/latest/installation.html</a>
+<a href="https://blog.csdn.net/lailaiquququ11/article/details/82904575">https://blog.csdn.net/lailaiquququ11/article/details/82904575</a></p>
+<p>解决方法：手动安装即可
+su - root
+wget <a href="http://www.zlib.net/zlib-1.3.tar.gz">http://www.zlib.net/zlib-1.3.tar.gz</a>
+wget <a href="http://ijg.org/files/jpegsrc.v9e.tar.gz">http://ijg.org/files/jpegsrc.v9e.tar.gz</a>
+tar -zxvf zlib-1.3.tar.gz
+tar -zxvf jpegsrc.v9e.tar.gz
+进入源码目录之后分别编译安装即可
+./configure
+make
+make install</p>
+<ol start="8">
+<li>pip换源
+python -m pip install &ndash;upgrade pip -i <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a>
+pip config set global.index-url <a href="https://pypi.tuna.tsinghua.edu.cn/simple">https://pypi.tuna.tsinghua.edu.cn/simple</a>
+或
+pip config set global.index-url <a href="https://mirrors.aliyun.com/pypi/simple/">https://mirrors.aliyun.com/pypi/simple/</a></li>
+</ol>
+
+
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Power by BinByZhang
+        2024
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/zhb.io/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bin&#39;s Blog</title>
+    <link>https://nano-oss.github.io/zhb.io/</link>
+    <description>Recent content on Bin&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>2000-{{ YEAR }}</copyright>
+    <lastBuildDate>Tue, 20 Feb 2024 19:05:50 +0800</lastBuildDate><atom:link href="https://nano-oss.github.io/zhb.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>win10下批量修改文件后缀</title>
+      <link>https://nano-oss.github.io/zhb.io/post/win10%E4%B8%8B%E6%89%B9%E9%87%8F%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80/</link>
+      <pubDate>Tue, 20 Feb 2024 22:22:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/win10%E4%B8%8B%E6%89%B9%E9%87%8F%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80/</guid>
+      
+        <description>win10下批量修改文件后缀 - 参考链接 https://zhuanlan.zhihu.com/p/649207787
+操作步骤 在文件夹里面新建一个tx文本，点击打开txt文本，输入一小段代码：ren *.txt *.md 意思就是将文件后缀名txt改成md
+将txt文件改成bat文件（后缀改成bat后按下回车键），最后再运行这个bat文件即可，这样就可以完成后缀名的批量修改了。</description>
+      
+    </item>
+    
+    <item>
+      <title>影视资源下载链接</title>
+      <link>https://nano-oss.github.io/zhb.io/download/%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Tue, 20 Feb 2024 21:45:12 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/download/%E5%BD%B1%E8%A7%86%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</guid>
+      
+        <description>影视资源下载目录 </description>
+      
+    </item>
+    
+    <item>
+      <title>软件下载链接</title>
+      <link>https://nano-oss.github.io/zhb.io/download/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Tue, 20 Feb 2024 21:44:55 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/download/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5/</guid>
+      
+        <description>软件下载目录 </description>
+      
+    </item>
+    
+    <item>
+      <title>Hugo搭建个人博客</title>
+      <link>https://nano-oss.github.io/zhb.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 20 Feb 2024 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>参考链接 https://www.gohugo.org/ https://www.gohugo.org/doc/ https://themes.gohugo.io/themes/anatole/ https://github.com/lxndrblz/anatole/wiki/1%EF%B8%8F%E2%83%A3-Essential-Steps https://fontawesome.com/ https://smc.im/post/resolve-integrity-error-in-hugo/ https://markdown.com.cn/	(markdown语法教程) https://huweim.github.io/post/blog_hugo_%E6%96%87%E7%AB%A0%E5%86%99%E4%BD%9C%E8%A7%84%E8%8C%83/
+创建新文章 hugo new post/first.md
+调试页面 修改完内容和配置后运行以下命令，会实时渲染 hugo server &amp;ndash;buildDrafts
+&amp;ndash;theme 选择哪个皮肤; &amp;ndash;buildDrafts 由于想显示我们的内容，包括设置了 draft 草稿状态的内容。
+部署静态页面到gitee或github (每次修改配置或发布文章都需要按照以下步骤重新部署，且需要先删除public目录)
+hugo &amp;ndash;buildDrafts 或者 hugo &amp;ndash;buildDrafts &amp;ndash;theme=anatole &amp;ndash;baseURL=&amp;ldquo;https://naonano.gitee.io/zhb.gitee.io/&amp;quot;
+cd .\public
+git init git remote add origin https://gitee.com/naonano/zhb.gitee.io.git git add . git commit -m &amp;ldquo;lastest commit&amp;rdquo; git push &amp;ndash;force -u origin master</description>
+      
+    </item>
+    
+    <item>
+      <title>笔记的README文件</title>
+      <link>https://nano-oss.github.io/zhb.io/post/readme/</link>
+      <pubDate>Tue, 20 Feb 2024 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/readme/</guid>
+      
+        <description>2023-06-15	备份和记录操作笔记。 2023-12-22	记录打印机相关debug过程 2023-12-30	记录ubuntu相关问题解决 2024-02-20	更新所有笔记格式为.md文件 持续更新中&amp;hellip;..</description>
+      
+    </item>
+    
+    <item>
+      <title>Self</title>
+      <link>https://nano-oss.github.io/zhb.io/self/self/</link>
+      <pubDate>Tue, 20 Feb 2024 13:15:41 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/self/self/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>关于这个博客</title>
+      <link>https://nano-oss.github.io/zhb.io/about/</link>
+      <pubDate>Mon, 19 Feb 2024 00:26:20 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/about/</guid>
+      
+        <description>我还没想到说啥 一些话
+我还没想到说啥 一些话
+我还没想到说啥 一些话
+我还没想到说啥 一些话
+我还没想到说啥 一些话</description>
+      
+    </item>
+    
+    <item>
+      <title>Hexo博客搭建记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Sun, 18 Feb 2024 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>(由于hexo主题存在太多兼容性问题和坑，已改用Hugo搭建博客) 利用hexo和gitee的 gitee page搭建个人博客</description>
+      
+    </item>
+    
+    <item>
+      <title>win10下的WSL操作记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/win10%E4%B8%8B%E7%9A%84wsl%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Tue, 06 Feb 2024 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/win10%E4%B8%8B%E7%9A%84wsl%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>win10下的WSL操作记录 - 参考链接： https://blog.csdn.net/weixin_43328157/article/details/129052041 https://learn.microsoft.com/zh-cn/windows/terminal/install https://learn.microsoft.com/zh-cn/windows/wsl/setup/environment#set-up-your-linux-username-and-password https://learn.microsoft.com/zh-cn/windows/wsl/install https://learn.microsoft.com/zh-cn/windows/wsl/basic-commands https://learn.microsoft.com/zh-cn/windows/wsl/wsl-config
+相关操作： wsl &amp;ndash;update	# 更新wsl内核 wsl &amp;ndash;list &amp;ndash;online	# 更新wsl发行版列表 wsl &amp;ndash;list &amp;ndash;verbose	# 列出已安装的子系统 wsl &amp;ndash;set-version 为子系统设置指定的wsl版本， 替换为发行版的名称， 并将 替换为 1 或 2 wsl &amp;ndash;set-default-version 设置 WSL 1或 WSL 2的默认版本，请将替换为数字 1 或 2 wsl &amp;ndash;status	# 查看wsl状态 wsl &amp;ndash;terminate # 关闭指定子系统 wsl &amp;ndash;unregister # 卸载指定子系统
+wsl &amp;ndash;install ubuntu	# 安装ubuntu wsl &amp;ndash;install debian	# 安装debian wsl &amp;ndash;install kali-linux	# 安装kali</description>
+      
+    </item>
+    
+    <item>
+      <title>诺基亚老人机忘记密码解决方法</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E8%AF%BA%E5%9F%BA%E4%BA%9A%E8%80%81%E4%BA%BA%E6%9C%BA%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Sat, 20 Jan 2024 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E8%AF%BA%E5%9F%BA%E4%BA%9A%E8%80%81%E4%BA%BA%E6%9C%BA%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+      
+        <description>诺基亚老人机忘记密码解决方法 - 1.硬格机：关机后重启手机后马上同时按住按住“*号键、3号键、拨号键” 且不能松开任何一个按键，直到屏幕出现“NOKIA”字母时才可以松开按键，否则会把系统搞坏的，这种叫硬格机，是在忘记手机密码的情况下使用的方法，硬格机后，手机密码会恢复成12345。 2.软格机：待机状态下输入“*#7370#”再输入手机密码12345 等手机自动重启是软格机，这种办法是手机出现严重错误或中毒的情况下使用的，格机后手机系统会恢复到原始状态。
+温馨提示：两种格机后，手机里安装的所有软件和电话号码，信息都会全部消失，建议格机前先把朋友的号码和重要信息全部复制到SIM卡里，格机后再复制回来就行了</description>
+      
+    </item>
+    
+    <item>
+      <title>树莓派centos找不到wlan0网卡解决方法</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BEcentos%E6%89%BE%E4%B8%8D%E5%88%B0wlan0%E7%BD%91%E5%8D%A1%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Fri, 29 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BEcentos%E6%89%BE%E4%B8%8D%E5%88%B0wlan0%E7%BD%91%E5%8D%A1%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</guid>
+      
+        <description>在以下路径：/usr/lib/firmwear/brcm/
+1.用一张新的内存卡烧录同样的镜像文件，插到树莓派运行 进入路径：/usr/lib/firmwear/brcm/ 将文件brcmfmac43455-sdio.raspberrypi,4-model-b.txt 复制出来，关机
+2.插回原来的内存卡开机，到同样路径下，备份原来的文件： sudo cp brcmfmac43455-sdio.raspberrypi,4-model-b.txt brcmfmac43455-sdio.raspberrypi,4-model-b.txt.bak
+将新卡复制出来的brcmfmac43455-sdio.raspberrypi,4-model-b.txt替换进去，之后重启系统，即可找到wlan0
+可以用beyodcompare软件对比两个文件的差异，观察区别
+之后用命令查看是否有wlan0 ifconfig 或 nmcli d</description>
+      
+    </item>
+    
+    <item>
+      <title>小米路由器刷breed或pbboot固件</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7breed%E6%88%96pbboot%E5%9B%BA%E4%BB%B6/</link>
+      <pubDate>Thu, 28 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E5%99%A8%E5%88%B7breed%E6%88%96pbboot%E5%9B%BA%E4%BB%B6/</guid>
+      
+        <description>小米路由器刷breed或pbboot固件 - =========================================== 视频教程：https://www.bilibili.com/video/BV1tw41157hd/?vd_source=2c096a3ac6e1f0b768fd4d477a1eaae2 原帖地址：https://www.right.com.cn/forum/thread-8315054-1-1.html 固件下载地址：https://410252889.lanzouv.com/b0bt7de8d 密码:60rx 1、恢复路由原厂稳定版固件，并设置路由器密码 2、网线连接路由和电脑 3、运行 开始.bat，执行界面的1，2，3，4步骤 4、在breed界面刷入padavan固件，注意和eeprom.bin一起刷入
+===========================================
+说明： 备份的文件在 XiaoMi R4A flash tool\data 目录下 eeprom.bin（无线驱动备份），backup.bin（编程器固件备份）</description>
+      
+    </item>
+    
+    <item>
+      <title>ubuntu安装桌面、配置远程</title>
+      <link>https://nano-oss.github.io/zhb.io/post/ubuntu%E5%AE%89%E8%A3%85%E6%A1%8C%E9%9D%A2%E9%85%8D%E7%BD%AE%E8%BF%9C%E7%A8%8B/</link>
+      <pubDate>Mon, 25 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/ubuntu%E5%AE%89%E8%A3%85%E6%A1%8C%E9%9D%A2%E9%85%8D%E7%BD%AE%E8%BF%9C%E7%A8%8B/</guid>
+      
+        <description>ubuntu-server安装桌面：https://zhuanlan.zhihu.com/p/373773218 操作要领： sudo apt install tasksel sudo tasksel install ubuntu-desktop 或 sudo apt install ubuntu-desktop
+安装ubuntu-desktop中断之后重新安装报错：needrestart is being skipped since dpkg has failed 方法：https://blog.csdn.net/u013832707/article/details/113104006 操作要领： （以下三选一） sudo dpkg &amp;ndash;configure -a sudo apt-get install -f sudo apt-get remove &amp;ndash;purge package_name
+ubuntu远程配置桌面：https://blog.csdn.net/siri99999/article/details/110704597 操作要领： sudo apt-get install tightvncserver xrdp net-tools sudo /etc/init.d/xrdp restart 输入如下命令 ，检查3350 3389 22 这三个端口处于LISTEN，一般就没问题了 netstat -tnl</description>
+      
+    </item>
+    
+    <item>
+      <title>Padavan - 配置无线桥接（AP Bridge）无线中继</title>
+      <link>https://nano-oss.github.io/zhb.io/post/padavan-%E9%85%8D%E7%BD%AE%E6%97%A0%E7%BA%BF%E6%A1%A5%E6%8E%A5ap-bridge%E6%97%A0%E7%BA%BF%E4%B8%AD%E7%BB%A7/</link>
+      <pubDate>Wed, 20 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/padavan-%E9%85%8D%E7%BD%AE%E6%97%A0%E7%BA%BF%E6%A1%A5%E6%8E%A5ap-bridge%E6%97%A0%E7%BA%BF%E4%B8%AD%E7%BB%A7/</guid>
+      
+        <description>Padavan - 配置无线桥接（AP Bridge）/ 无线中继 - 参考链接：https://swsmile.info/post/padavan-setup-wireless-bridge/ 以下步骤仅为防止原文失联，具体操作看原文(有图)更详细！
+操作步骤 - 进入 Padavan 管理页面 —— 高级设置 —— 无线 2.4GHz—— 无线桥接。将设置和下图填写一致即可，对于 “上级 SSID”，不用自己手动输入，点击下箭头，从下拉框中选取你主路由发射出来的 wifi 信号即可
+对于无线工作模式： AP-Client + AP：开启无线中继（AP）和有线中继（AP-Client），again，这意味着副路由器的 WAN 口不需要连接网线，而连接到副路由器的 WIFI 的设备和通过网线连接到副路由器的 LAN 口的设备可以访问互联网
+AP-Clinet（禁用AP）：仅开启有线中继（AP-Client），这意味着副路由器的 WAN 口不需要连接网线，而通过网线连接到副路由器的 LAN 口的设备可以访问互联网 对于无线 AP-Client 角色:：
+WAN (Wireless ISP)：需要开启副路由器的 DHCP 服务，因而连接副路由器设备的 IP 地址与连接主路由设备的 IP 地址不出现在一个网段下。
+LAN bridge：如果设置为这个，则需要关闭副路由器的 DHCP 服务：高级设置 —— 内部网络（LAN）——DHCP 服务器 —— 关闭 DHCP
+一句话概括，副路由器是否进行 NAT，如果是，则为 WAN (Wireless ISP)，否则为 LAN bridge
+高级设置中分别修改2.4G和5G，一般建议两个wifi名字不同。如果要实现双频和一，就把名字密码加密方式都改一样。</description>
+      
+    </item>
+    
+    <item>
+      <title>win10常见操作记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/win10%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 18 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/win10%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>查看电脑连接过的WiFi密码：
+使用win+r打开命令行 输入netsh wlan show profile name=&amp;ldquo;WiFi名称&amp;rdquo; key=clear </description>
+      
+    </item>
+    
+    <item>
+      <title>VMware虚拟机安装klipper</title>
+      <link>https://nano-oss.github.io/zhb.io/post/vmware%E8%99%9A%E6%8B%9F%E6%9C%BAklipper/</link>
+      <pubDate>Mon, 11 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/vmware%E8%99%9A%E6%8B%9F%E6%9C%BAklipper/</guid>
+      
+        <description>下载VMware，并安装： https://pan.baidu.com/s/1Hc3yK1oVUY3m3N6ZDgZE3A 提取码：3456
+VMware下ubuntu设置共享文件夹： sudo apt update sudo apt install open-vm-tools-desktop fuse sudo mkdir /mnt/hgfs sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+下载一个Linux镜像，推荐ubuntu: https://mirrors-i.tuna.tsinghua.edu.cn/
+！最好用2004及以上版本的ubuntu，低版本会因为python版本错误导致安装失败
+常规安装虚拟机进行即可 vmware-tools可能安装不上，点击安装vmware-tools之后登出用户重新进来一般可以 如果出现两个询问窗口，第二个窗口点击否，也可以解决
+换源： sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak sudo nano /etc/apt/sources.list 写入以下内容覆盖原文件，根据系统选择： Ubuntu 16.04 (LTS)代号为xenial。 Ubuntu 18.04 (LTS)代号为bionic。 Ubuntu 20.04 (LTS)代号为focal。
+输入 lsb_release -a 可以查看
+#清华源 xenial 1604 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse</description>
+      
+    </item>
+    
+    <item>
+      <title>机顶盒玩客云等设备激活hinas的wifi功能</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%9C%BA%E9%A1%B6%E7%9B%92%E7%8E%A9%E5%AE%A2%E4%BA%91%E7%AD%89%E8%AE%BE%E5%A4%87%E6%BF%80%E6%B4%BBhinas%E7%9A%84wifi%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Fri, 08 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%9C%BA%E9%A1%B6%E7%9B%92%E7%8E%A9%E5%AE%A2%E4%BA%91%E7%AD%89%E8%AE%BE%E5%A4%87%E6%BF%80%E6%B4%BBhinas%E7%9A%84wifi%E5%8A%9F%E8%83%BD/</guid>
+      
+        <description>机顶盒/玩客云等设备激活hinas的wifi功能 - #参考链接： https://bbs.histb.com/d/18-wifi
+#文件下载地址： 链接：https://pan.baidu.com/s/10QmX6Z4mb_p_9SdOC4BMUQ 提取码：q1xj
+#安装方法： 在root用户下操作！
+将下载的文件用u盘插到设备上 先执行dd if=hi_kernel-mv100-0808.bin of=/dev/mmcblk0p6
+重启设备！
+然后执行 ./wifi_install.sh -f rtl8188ftv-0808.tar.gz 使用nmtui-connect连接wifi 之后拔掉网线重启设备，在路由器后台查看设备ip</description>
+      
+    </item>
+    
+    <item>
+      <title>klipper暂停和恢复打印配置代码</title>
+      <link>https://nano-oss.github.io/zhb.io/post/pause_resume/</link>
+      <pubDate>Sat, 02 Dec 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/pause_resume/</guid>
+      
+        <description>[gcode_macro PAUSE] rename_existing: BASE_PAUSE gcode: {% set E = params.E|default(1.7)|float %} {% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %} {% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %} {% set max_z = printer.toolhead.axis_maximum.z|float %} {% set act_z = printer.toolhead.position.z|float %} {% if act_z &amp;lt; (max_z - 2.0) %} {% set z_safe = 2.0 %} {% else %} {% set z_safe = max_z - act_z %} {% endif %} SAVE_GCODE_STATE NAME=PAUSE_state BASE_PAUSE G91 G1 E-{E} F2100 G1 Z{z_safe} F900 G90 G0 X{x_park} Y{y_park} F6000 G91</description>
+      
+    </item>
+    
+    <item>
+      <title>树莓派镜像备份</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%95%9C%E5%83%8F%E5%A4%87%E4%BB%BD/</link>
+      <pubDate>Thu, 30 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%95%9C%E5%83%8F%E5%A4%87%E4%BB%BD/</guid>
+      
+        <description> 树莓派镜像备份 - 用于备份搭建了很多服务的树莓派系统，防止人为损坏系统导致需要重头开始搭建服务. 最好的方案就是采用：win32disk全盘备份+vmware虚拟机ubuntu-desktop用gparted删去无用分区+用pishink脚本压缩 总体思路：gparted删去无用分区-&amp;gt;win32disk读取(仅读取已分配分区)-&amp;gt;pishrink脚本压缩镜像
+参考链接 - https://blog.csdn.net/sinat_16643223/article/details/108346538 https://blog.csdn.net/hezuijiudexiaobai/article/details/117132274 https://github.com/Drewsif/PiShrink https://sourceforge.net/projects/win32diskimager/ https://www.cnblogs.com/bongem/p/12312878.html#
+操作步骤 - #镜像裁剪： 1.在Linux虚拟机操作： 将树莓派内存卡插上电脑虚拟机 sudo apt install gparted 输入sudo gparted启动 gparted，在右上角选择 SD 卡 将最大分区umount之后点击reszie，设置new size的值，然后保存，弹出内存卡到主机
+#全卡备份： 2.在电脑桌面或其他地方新建一个文本，重命名改格式为backup.img 3.打开win32-disk烧录软件,选择新建的back.img文件，选择要备份的树莓派内存卡，勾选‘读取已分配内存分区’的选项，点击read读取镜像
+#镜像压缩： 将上一步读取的镜像backup.img上传到Linux系统上 cd git clone https://github.com/Drewsif/PiShrink.git cd PiShrink sudo chmod 777 pishrink.sh 4.在backup.img所在目录下操作: sudo cp /home/pi/PiShrink/pishrink.sh ./ sudo ./pishrink.sh backup.img backup_v2.img 等待镜像裁剪完成 5.将裁剪完成的镜像拷贝上电脑准备烧录 使用树莓派镜像烧录软件将裁剪后的backup_v2.img烧录进新内存卡，记得清空烧录软件对系统的设置 等待烧录完成，重新插到树莓派开机观察是否正常。
+新学指令 - 每额定时间执行一次命令： watch -n time(s) command 例如：watch -n 1 ls -l	#每秒打印一次当前目录的所有文件属性 </description>
+      
+    </item>
+    
+    <item>
+      <title>nanopi安装gpio和python的RPi.GPIO_NP库</title>
+      <link>https://nano-oss.github.io/zhb.io/post/nanopi%E5%AE%89%E8%A3%85gpio%E5%92%8Cpython%E7%9A%84rpi.gpio_np%E5%BA%93/</link>
+      <pubDate>Wed, 22 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/nanopi%E5%AE%89%E8%A3%85gpio%E5%92%8Cpython%E7%9A%84rpi.gpio_np%E5%BA%93/</guid>
+      
+        <description>nanopi安装gpio和python的RPi.GPIO_NP库 - 支持的板子型号有： NanoPi Neo NanoPi Neo Air NanoPi Duo NanoPi Duo2 NanoPi NEO2 NanoPi NEO Plus2 NanoPi M1 NanoPi M1 Plus NanoPi NEO Core NanoPi NEO Core2 NanoPi K1 Plus NanoPC T3
+参考链接 - https://zhuanlan.zhihu.com/p/423773714 https://github.com/friendlyarm/WiringNP https://github.com/friendlyarm/RPi.GPIO_NP
+操作步骤 - 1.WiringNP git clone https://github.com/friendlyarm/WiringNP cd WiringNP/ chmod 755 build ./build
+测试： gpio readall
+2.RPi.GPIO_NP python2.7操作： sudo apt-get update sudo apt-get install python-dev git clone https://github.com/friendlyarm/RPi.GPIO_NP cd RPi.GPIO_NP python setup.py install sudo python setup.</description>
+      
+    </item>
+    
+    <item>
+      <title>ubuntu操作记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/ubuntu%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Wed, 22 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/ubuntu%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description> ubuntu操作记录 - 1.修改/etc/sudoers文件发现显示/etc/sudoers is meant to be readonly的警告： $ 使用visudo指令修改： sudo visudo
+vmware下开了共享文件夹却找不到，需要手动挂载一下： sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other </description>
+      
+    </item>
+    
+    <item>
+      <title>nanopi使用ubuntu16.04无法更新系统问题</title>
+      <link>https://nano-oss.github.io/zhb.io/post/nanopi%E4%BD%BF%E7%94%A8ubuntu16.04%E6%97%A0%E6%B3%95%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Tue, 21 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/nanopi%E4%BD%BF%E7%94%A8ubuntu16.04%E6%97%A0%E6%B3%95%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98/</guid>
+      
+        <description>nanopi使用ubuntu16.04无法更新系统问题 - 因为1604系统比较古老，要使用apt-get update确避免问题，直接用apt update可能出现未知问题
+参考链接 - https://blog.csdn.net/qq_42520160/article/details/100159233
+问题点 - 换源清华源之后，使用sudo apt-get update报错找不到IP地址 E: Some index files failed to download. They have been ignored, or old ones used instead. 问题是404 not found 找不到网页，起初我以为是DNS的问题，修改/etc/resolv.conf 但是还是有问题，最后看源码的确是没这几个文件，所以是源的问题，换了国内其他几个常用源后还是有问题。 查资料后发现中科大还提供old_release
+解决方法 - 覆盖原本/etc/apt/sources.list内容如下： deb http://mirrors.ustc.edu.cn/ubuntu-old-releases/ubuntu/ zesty main universe
+Ubuntu Update Repos deb http://mirrors.ustc.edu.cn/ubuntu-old-releases/ubuntu/ zesty-updates main universe
+然后使用： sudo apt-get update sudo apt-get upgrade</description>
+      
+    </item>
+    
+    <item>
+      <title>Linux系统搭建v2ray-v2ray2a记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/linux%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAv2ray-v2ray2a%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 20 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/linux%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAv2ray-v2ray2a%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description> Linux系统搭建v2ray-v2ray2a记录 - 通用于ubuntu-debian-raspibian等Linux系统，amd64-arm64(aarch64)-armhf(armv7)架构
+参考链接 - https://www.sky350.com/1210.html https://github.com/v2fly/fhs-install-v2ray https://v2raya.org/en/docs/prologue/installation/debian/#method-2-manually-install-the-deb-package https://github.com/v2rayA/v2rayA/releases https://github.com/v2rayA/v2raya-apt/tree/master/pool/main/v https://blog.csdn.net/Albert233333/article/details/128996452
+操作步骤 - (因为外网在线安装不稳定，所以本教程是手动下载安装)
+根据系统架构在以下网站，分别下载对应版本v2ray和v2raya的deb包： https://github.com/v2rayA/v2raya-apt/tree/master/pool/main/v
+将下载好的deb包上传到要安装的Linux系统上的home用户目录下(/home/username)：
+给与deb包权限(这里以amd64为例) sudo chmod 777 v2raya_2.2.4.3_amd64.deb sudo chmod 777 v2ray_5.10.1_amd64.deb
+安装 sudo dpkg -i v2ray_5.10.1_amd64.deb sudo dpkg -i v2raya_2.2.4.3_amd64.deb
+设置开机自启动： sudo systemctl enable v2ray.service sudo systemctl enable v2raya.service
+启动： sudo systemctl start v2ray.service sudo systemctl start v2raya.service
+测试 网页输入： ip:2017 第一次进入页面需要设置一个管理员账号 例如：账号admin 密码admin123 忘记密码可在Linux终端重置：sudo v2raya &amp;ndash;reset-password 输入订阅地址，点击更新订阅 在右上角设置里面更改为&amp;quot;启用：大陆白名单模式&amp;quot;，返回订阅列表中ping一下延迟，选择一个订阅 然后点击左上角的启动，打开linux自带的浏览器访问外网即可 终端下可以用： wget youtube.com 看是否能下载index.html文件 </description>
+      
+    </item>
+    
+    <item>
+      <title>heimdall导航页面搭建</title>
+      <link>https://nano-oss.github.io/zhb.io/post/heimdall_install/</link>
+      <pubDate>Sun, 05 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/heimdall_install/</guid>
+      
+        <description>docker镜像中文网：https://linuxserver.watercalmx.com/images/ 参考安装汉化网址：https://post.smzdm.com/p/apz38pg0/ heimdall安装步骤： 先百度安装docker arm64v8要替换成自己的架构 docker pull linuxserver/heimdall:arm64v8-latest
+mkdir /home/zhb/docker/heimdall
+docker run -d &amp;ndash;name=heimdall &amp;ndash;restart=always -p 81:80 -p 442:443 -v /home/zhb/docker/heimdall:/config -e PUID=1000 -e PGID=1000 -e TZ=Asia/Shanghai linuxserver/heimdall:arm64v8-latest
+注意：以上81为网页登陆端口，防止端口占用可修改为自己的端口
+docker run -d &amp;ndash;name=heimdall &amp;ndash;restart=always -p 81:80 -p 442:443 -v /home/pi/docker/heimdall:/config -e PUID=1000 -e PGID=1000 -e TZ=Asia/Shanghai linuxserver/heimdall:arm64v8-latest
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ docker的一些操作：
+删除指定容器： docker rm -f 删除未启动成功的容器： docker rm $(docker ps -a|grep Created|awk &amp;lsquo;{print $1}&amp;rsquo;)
+删除退出状态的容器： docker rm $(docker ps -a|grep Exited|awk &amp;lsquo;{print $1}&amp;rsquo;)</description>
+      
+    </item>
+    
+    <item>
+      <title>树莓派操作指南3</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%973/</link>
+      <pubDate>Sun, 05 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%973/</guid>
+      
+        <description>树莓派配置远程桌面 - 实测vnc并不实用，所以这里采用新方法 参考链接：https://blog.csdn.net/siri99999/article/details/110704597 操作步骤： sudo apt-get install xrdp tightvncserver sudo /etc/init.d/xrdp restart 然后使用win10/win11自带的远程桌面连接树莓派ip即可
+树莓派4B使用最新版本安装wiringpi报错 - 参考链接： 原因：wiringpi过久没更新，与最新版本的树莓派系统不兼容，安装之后会出现无法访问/proc/cpuinfo的错误且无法解决，直接使用pip3 install wiringpi可能之后gpio -v报错：Oops - unable to determine board type&amp;hellip; model: 17
+解决方法：使用20年的树莓派镜像或者更久的镜像烧录系统，然后安装wiringpi 操作步骤： 烧录旧版树莓派系统 cd wget https://project-downloads.drogon.net/wiringpi-latest.deb sudo dpkg -i wiringpi-latest.deb</description>
+      
+    </item>
+    
+    <item>
+      <title>gitee简历制作网页搭建</title>
+      <link>https://nano-oss.github.io/zhb.io/post/gitee%E7%AE%80%E5%8E%86%E5%88%B6%E4%BD%9C%E7%BD%91%E9%A1%B5%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Wed, 01 Nov 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/gitee%E7%AE%80%E5%8E%86%E5%88%B6%E4%BD%9C%E7%BD%91%E9%A1%B5%E6%90%AD%E5%BB%BA/</guid>
+      
+        <description>gitee简历制作网页搭建 markdown2pdf项目地址：https://gitee.com/codeleilei/markdown2pdf.git
+linux安装nginx教程：https://blog.csdn.net/weixin_43314519/article/details/115151858 markdown语法教程：https://markdown.com.cn/basic-syntax/images.html
+#本教程使用ubuntu23.04版本
+确保ubuntu系统安装了git 之后步骤如下：
+下载项目到本地 git clone https://gitee.com/codeleilei/markdown2pdf.git
+安装项目依赖 cd markdown2pdf sudo apt-get install nodejs npm
+查看node版本： node -v //确保node版本在16以上
+sudo npm install pnpm -g sudo pnpm install sudo pnpm build //这句可以不执行
+之后尝试运行测试： sudo pnpm dev 本机浏览器输入localhost:5173能够正常进去即为成功
+部署到nginx服务器 sudo apt install nginx cd /var/www/html 删除该目录下原本的测试文件 将markdown2pdf/dist内的所有文件复制到/var/www/html 再次浏览器进入ubuntu的ip能够成功访问即可 </description>
+      
+    </item>
+    
+    <item>
+      <title>香橙派驱动树莓派5-7寸触摸屏</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E9%A6%99%E6%A9%99%E6%B4%BE%E9%A9%B1%E5%8A%A8%E6%A0%91%E8%8E%93%E6%B4%BE5-7%E5%AF%B8%E8%A7%A6%E6%91%B8%E5%B1%8F/</link>
+      <pubDate>Mon, 30 Oct 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E9%A6%99%E6%A9%99%E6%B4%BE%E9%A9%B1%E5%8A%A8%E6%A0%91%E8%8E%93%E6%B4%BE5-7%E5%AF%B8%E8%A7%A6%E6%91%B8%E5%B1%8F/</guid>
+      
+        <description>香橙派驱动树莓派5-7寸触摸屏 系统最好是ubuntu
+klipperscreen官方网址 https://klipperscreen.readthedocs.io/en/latest/
+正常安装klipper、fluid、moonraker
+git clone https://gitee.com/miroky/kiauh.git 安装桌面驱动： sudo apt install xserver-xorg-input-libinput
+安装中文字库： sudo apt install fonts-wqy-zenhei
+安装摄像头驱动，需要先卸载meg数据流重装、安装klipperscreen bash &amp;lt;(curl -fsSL http://klipper.7130404.xyz:8001/add_webcam.sh)
+重启</description>
+      
+    </item>
+    
+    <item>
+      <title>gitee使用记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/gitee%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Fri, 20 Oct 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/gitee%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>重要！日常更新仓库命令：
+参考链接：https://blog.csdn.net/m0_45234510/article/details/120181503 git status git add . git commit -m &amp;ldquo;240112update&amp;rdquo; git push -u origin &amp;ldquo;master&amp;rdquo; 或强制更新 git push &amp;ndash;force origin master
+拉取远程仓库、更新本地仓库到最新代码： git pull origin master
+gitee使用记录 参考链接：https://blog.csdn.net/m0_51411338/article/details/124380516
+#将本地文件同步到云端 初始化仓库： git init
+连接远程仓库： git remote add gitee https://gitee.com/naonano/xxx.git
+查看远程仓库信息： git remote -v
+查看本地文件夹文件同步状态： git status
+将文件发送到暂存区： git add .
+提交本地暂存区： git commit -m &amp;ldquo;first commit&amp;rdquo;
+连接仓库： git remote add origin https://gitee.com/xxx.git
+上传到仓库： git push -u origin &amp;ldquo;master&amp;rdquo;
+更新仓库： git push gitee master git push github master</description>
+      
+    </item>
+    
+    <item>
+      <title>prusa mk3s配置klipper</title>
+      <link>https://nano-oss.github.io/zhb.io/post/prusa-mk3s%E9%85%8D%E7%BD%AEklipper/</link>
+      <pubDate>Tue, 10 Oct 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/prusa-mk3s%E9%85%8D%E7%BD%AEklipper/</guid>
+      
+        <description>prusa mk3s配置klipper 官方参考地址： https://github.com/dz0ny/klipper-prusa-mk3s https://github.com/dz0ny/klipper-prusa-mk3s/blob/main/printer.template.cfg https://klipperscreen.readthedocs.io/en/latest/Troubleshooting/ 概要： 1.使用kiauh脚本安装klipperscreen、klipper、fluidd、moonraker
+git clone https://gitee.com/miroky/kiauh.git 2.使用思谦脚本重新安装MEGASTEAM摄像头驱动
+bash &amp;lt;(curl -fsSL http://klipper.7130404.xyz:8001/add_webcam.sh) 3.配置mk3s打印机配置文件 复制配置文件： git clone https://github.com/dz0ny/klipper-prusa-mk3s.git ~/printer_data/config/klipper-prusa-mk3s
+4.加入以下内容到moonraker.conf方便自动更新： [update_manager prusa] type: git_repo origin: https://github.com/dz0ny/klipper-prusa-mk3s.git path: ~/printer_data/config/klipper-prusa-mk3s primary_branch: main is_system_service: False managed_services: klipper
+5.适配自己的打印机，修改配置文件的串口号，解决报错 6.使用kiauh烧录下位机固件
+官方指导： 1.prepare things： Get Z offset value from your current firmware (Menu -&amp;gt; Calibration -&amp;gt; Z-offset), you will need it for the Klipper config. Your bed needs to be perpendicular (based on XYZ Calibration).</description>
+      
+    </item>
+    
+    <item>
+      <title>ubuntu2004安装ros</title>
+      <link>https://nano-oss.github.io/zhb.io/post/ubuntu2004%E5%AE%89%E8%A3%85ros/</link>
+      <pubDate>Wed, 20 Sep 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/ubuntu2004%E5%AE%89%E8%A3%85ros/</guid>
+      
+        <description>ubuntu不同版本对应的ros版本： Ubuntu	ROS1.0	ROS 2.0 16.04LTS Kinetic LTS	Ardent 18.04LTS Melodic LTS	Dashing LTS 20.04LTS Noetic LTS	Foxy LTS 22.04LTS Noetic Ninjemys	Humble Hawksbill 1.创建一个ros用户 sudo adduser ros （sudo userdel -r username） sudo usermod -a -G adm ros sudo usermod -a -G sudo ros sudo gpasswd &amp;ndash;add ros dialout su - ros
+2.修改镜像源 sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak sudo nano /etc/apt/sources.list 写入以下内容覆盖原文件，根据系统选择： Ubuntu 16.04 (LTS)代号为xenial。 Ubuntu 18.04 (LTS)代号为bionic。 Ubuntu 20.04 (LTS)代号为focal。</description>
+      
+    </item>
+    
+    <item>
+      <title>arduino驱动点阵数码管_TRY</title>
+      <link>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E7%82%B9%E9%98%B5%E6%95%B0%E7%A0%81%E7%AE%A1_try/</link>
+      <pubDate>Sat, 26 Aug 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E7%82%B9%E9%98%B5%E6%95%B0%E7%A0%81%E7%AE%A1_try/</guid>
+      
+        <description>/* For more information see https://github.com/maxint-rd/TM16xx
+https://learn.adafruit.com/adafruit-gfx-graphics-library/graphics-primitives 老五8毛钱的双色数码管功能代码,使用前需要先安装tm1640的库 matrix.setIntensity(1);//设置亮度，0-7档 matrix.drawPixel(x, y, HIGH);//坐标描点 drawPixel(int16_t x, int16_t y, uint16_t color); x范围0-7，y范围0-15 ：其中0-7显示红色，8-15为绿色； matrix.drawChar(0, 0, &amp;lsquo;A&amp;rsquo;, HIGH, LOW, 1);//字符绘制 matrix.drawLine(0, matrix.height(), matrix.width(), 0, HIGH);//绘线 matrix.drawRect(0, 0, 6, 6, HIGH);//矩形绘制 matrix.setMirror(boolean fMirrorX=false, boolean fMirrorY=false);//镜像翻转 matrix.fillScreen(LOW);//清屏 matrix.fillScreen(HIGH);//全亮 matrix.write();//写入显示 * 点阵坐标图如下： y:15 ^ | |GREEN | 8&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- | |RED | 0&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&amp;gt;x:7 */ #include &amp;lt;Adafruit_GFX.h&amp;gt; #include &amp;lt;TM1640.h&amp;gt; #include &amp;lt;TM16xxMatrixGFX.h&amp;gt;
+TM1640 module(D1, D2); // DIN=9, CLK=10 #define MATRIX_NUMCOLUMNS 16 #define MATRIX_NUMROWS 8 TM16xxMatrixGFX matrix(&amp;amp;module, MATRIX_NUMCOLUMNS, MATRIX_NUMROWS); // TM16xx object, columns, rows</description>
+      
+    </item>
+    
+    <item>
+      <title>arduino驱动无刷风扇_PWM</title>
+      <link>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E6%97%A0%E5%88%B7%E9%A3%8E%E6%89%87_pwm/</link>
+      <pubDate>Fri, 25 Aug 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E6%97%A0%E5%88%B7%E9%A3%8E%E6%89%87_pwm/</guid>
+      
+        <description>//本例程基于nodemcu 1.0 esp8266 //功能：读取电位器数值，控制输出的PWM占空比控制风扇
+int PWM = D1; int MIC = A0; float value = 0; float value_P;
+void setup() { Serial.begin(9600); pinMode(PWM, OUTPUT); pinMode(MIC, INPUT); Serial.println(&amp;ldquo;Init All Success!&amp;rdquo;); }
+void loop() { delay(200); value = analogRead(MIC); //8-1024 value_P = value/1024*255; //PWM Support: max: 235 min: 51 if(value_P &amp;lt; 51) { analogWrite(PWM, 0); } if(value_P &amp;gt; 235) { analogWrite(PWM, 235); } else { analogWrite(PWM, value_P); } Serial.printf(&amp;ldquo;NGF %.2f %.0f\n&amp;rdquo;,value,value_P); }</description>
+      
+    </item>
+    
+    <item>
+      <title>arduino驱动无刷风扇_Plus</title>
+      <link>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E6%97%A0%E5%88%B7%E9%A3%8E%E6%89%87_plus/</link>
+      <pubDate>Tue, 22 Aug 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E6%97%A0%E5%88%B7%E9%A3%8E%E6%89%87_plus/</guid>
+      
+        <description>//本例程基于nodemcu 1.0 esp8266 //需要根据头文件安装对应的库 //功能：读取电位器数值，OLED显示PWM输出占空比， // 控制输出的PWM占空比控制风扇，过高过低均会触发蜂鸣器 //参考链接： //https://www.bilibili.com/read/cv20778641 //https://zhuanlan.zhihu.com/p/135170761?utm_source=qq
+#include &amp;lt;Arduino.h&amp;gt; #include &amp;lt;Wire.h&amp;gt; #include &amp;lt;Adafruit_GFX.h&amp;gt; #include &amp;lt;Adafruit_SSD1306.h&amp;gt;
+#define PWM D1 #define MIC A0 #define SCL D6 #define SDA D5 #define BEEP D7 #define OLED_RESET 4 Adafruit_SSD1306 display(128, 64, &amp;amp;Wire,OLED_RESET);
+float value = 0; float value_P;
+void setup() { Serial.begin(9600); pinMode(PWM, OUTPUT); pinMode(BEEP, OUTPUT); pinMode(MIC, INPUT); Wire.begin(SDA, SCL, 400000); display.begin(SSD1306_SWITCHCAPVCC,0x3C); display.setTextColor(WHITE);//开像素点发光 display.clearDisplay();//清屏
+Serial.println(&amp;ldquo;Init All Success!&amp;rdquo;);
+}
+void loop() { delay(1000); value = analogRead(MIC); //8-1024 value_P = value/1024*255; //PWM Support: max: 235 min: 51 if(value_P &amp;lt; 51) { analogWrite(PWM, 0); tone(BEEP, 2000, 500000); } if(value_P &amp;gt; 235) { analogWrite(PWM, 235); tone(BEEP, 2000, 500000); } else { analogWrite(PWM, value_P); } display.</description>
+      
+    </item>
+    
+    <item>
+      <title>arduino驱动点阵数码管_TEST</title>
+      <link>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E7%82%B9%E9%98%B5%E6%95%B0%E7%A0%81%E7%AE%A1_test/</link>
+      <pubDate>Sun, 20 Aug 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/arduino%E9%A9%B1%E5%8A%A8%E7%82%B9%E9%98%B5%E6%95%B0%E7%A0%81%E7%AE%A1_test/</guid>
+      
+        <description>/* Basic library example for TM1640. Kept small to fit in the limited space of an ATtiny44.
+Library based on TM1638 library by Ricardo Batista, adapted by Maxint-RD MMOLE 2018. Confirmed to work in the following environments: ATtiny44A using Arduino IDE 1.8.2 and ATTinyCore (8MHz, LTO enabled), 3232 bytes flash, 103 bytes RAM ATtiny44A using Arduino IDE 1.8.2 and ATtiny Microcontrolers (8MHz), 3212 bytes flash, 103 bytes RAM ==&amp;gt; 2892/95 ==&amp;gt; 2878/95</description>
+      
+    </item>
+    
+    <item>
+      <title>nas搭建指南</title>
+      <link>https://nano-oss.github.io/zhb.io/post/nas%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 08 Aug 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/nas%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/</guid>
+      
+        <description>使用本系统需要基于x86主机，16G以上内存，带核显或独立显卡
+#相关链接 指南：https://github.com/firemakergk/aquar-build-helper nas控制页面：https://github.com/firemakergk/aquar-home nas控制页面指南：https://github.com/firemakergk/aquar-home-helper
+path = /home/pi/share public = yes writable = yes read only = no create mask = 0777 directory mask = 0777 guest ok = yes browseable = yes</description>
+      
+    </item>
+    
+    <item>
+      <title>蜘蛛spider2.3编译下位机固件</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E8%9C%98%E8%9B%9Bspider2.3%E7%BC%96%E8%AF%91%E4%B8%8B%E4%BD%8D%E6%9C%BA%E5%9B%BA%E4%BB%B6/</link>
+      <pubDate>Wed, 02 Aug 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E8%9C%98%E8%9B%9Bspider2.3%E7%BC%96%E8%AF%91%E4%B8%8B%E4%BD%8D%E6%9C%BA%E5%9B%BA%E4%BB%B6/</guid>
+      
+        <description>参考链接 - https://www.bilibili.com/read/cv24075991/ http://git.fysetc.com.cn/FYSETC/FYSETC-SPIDER/src/branch/main/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3_%E4%B8%AD%E6%96%87.md#user-content-112-spider-v2x
+操作步骤 - 0.klipper编译固件 选择 STMicroelectronics STM32 选择 STM32F446 选择 12 MHz crystal 选择 32KiB bootloader 如果使用 USB 线连接树莓派和蜘蛛主板，选择选项 USB (on PA11/PA12),还需要改成no bootloader 如果使用串口连接树莓派和蜘蛛，选择选项 Serial (on USART1 PA10/PA9)
+1.卡刷： 用 TF 进行固件更新，只需要把你编译好的 firmware.bin 文件（如果是 klipper 固件的话，默认生成 klipper.bin 你需要把 klipper.bin 改名成 firmware.bin）拷贝到你的 TF 卡中，插入蜘蛛主板的 TF 卡槽中，给蜘蛛上电。指示灯开始闪烁表示开始烧录，TF 卡旁边的指示灯不再闪烁即烧录完成。拔下 TF 卡，然后插到电脑上，你会发现 firmware.bin 被重新命名为 old.bin，说明烧录成功。如果名称不变，说明没有烧录成功。
+2.线刷： 第一步：进入 DFU 模式 首先断开电源 用跳线帽短接 5V 管脚和 DC5V 用跳线帽短接 BT0 和 3.3V 用 USB 线连接主板和你的电脑（或者树莓派） 上电 24v 现在主板已经在 DFU 模式了，如果没有请按一下蜘蛛的复位按钮.</description>
+      
+    </item>
+    
+    <item>
+      <title>树莓派部署摄像头到onenet</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%83%A8%E7%BD%B2%E6%91%84%E5%83%8F%E5%A4%B4%E5%88%B0onenet/</link>
+      <pubDate>Thu, 20 Jul 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%83%A8%E7%BD%B2%E6%91%84%E5%83%8F%E5%A4%B4%E5%88%B0onenet/</guid>
+      
+        <description>树莓派部署摄像头到onenet - Run sudo apt-get install -y nodejs to install Node.js 14.x and npm You may also need development tools to build native addons: sudo apt-get install gcc g++ makeTo install the Yarn package manager, run: curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg &amp;gt;/dev/nullecho &amp;quot;deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main&amp;quot; | sudo tee /etc/apt/sources.list.d/yarn.listsudo apt-get update &amp;amp;&amp;amp; sudo apt-get install yarn参考链接： https://blog.csdn.net/aphero/article/details/81668058#
+curl -sL https://deb.</description>
+      
+    </item>
+    
+    <item>
+      <title>树莓派操作指南2-CM4安装系统</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%972-cm4%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Mon, 08 May 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%972-cm4%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F/</guid>
+      
+        <description>树莓派操作指南2-CM4安装系统 参考链接： https://blog.csdn.net/weixin_41756645/article/details/126873748 https://blog.csdn.net/Travel1992/article/details/115554449 https://blog.csdn.net/qq_35475292/article/details/110497529 https://blog.csdn.net/wanggao_1990/article/details/121398020
+1.安装rpiboot软件 https://gitee.com/naonano/usbboot 下载安装win32里面的程序
+2.短接cm4板子上的j2排针最左边的排针，用安卓数据线连接到电脑 运行rpiboot软件，之后电脑一般能够识别到u盘 如果不能请检查数据线和短接帽是否有问题
+3.查看是否识别为u盘，使用raspi imager正常安装即可</description>
+      
+    </item>
+    
+    <item>
+      <title>Klipper安装指南</title>
+      <link>https://nano-oss.github.io/zhb.io/post/klipper_install/</link>
+      <pubDate>Fri, 05 May 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/klipper_install/</guid>
+      
+        <description>香橙派镜像下载地址： http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-2.html
+canbus-ebb刷机教程: https://www.bilibili.com/video/BV1tN4y1F7wo/?vd_source=83eaf6e4edc3987cb641faad4036a9f3
+N1盒子安装Armbian系统教程： https://www.right.com.cn/forum/thread-510423-1-1.html https://post.smzdm.com/p/alpwnxmp/
+sudo adduser klipper （sudo userdel -r username） sudo usermod -a -G adm klipper sudo usermod -a -G sudo klipper sudo gpasswd &amp;ndash;add klipper dialout su - klipper
+git clone https://github.com/th33xitus/kiauh.git git clone https://gitee.com/miroky/kiauh.git(速度快) sudo apt install git tree gcc g++ make cmake // bash &amp;lt;(curl -fsSL http://klipper.7130404.xyz:8001/add_webcam.sh)
+换shell cat /etc/shells sudo usermod -s /bin/bash username 或chsh -s /bin/bash
+查看端口 ls /dev/serial/by-id/*
+换源 https://mirrors.tuna.tsinghua.edu.cn/help/debian/</description>
+      
+    </item>
+    
+    <item>
+      <title>局域网内samba搭建</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85samba%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Thu, 04 May 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85samba%E6%90%AD%E5%BB%BA/</guid>
+      
+        <description>局域网内文件共享服务搭建： 1.安装samba服务 sudo apt install samba
+2.修改samba配置 sudo nano /etc/samba/smb.conf 在文件末尾加入以下内容： [share] path = /home/pi/share	#共享文件夹的路径 public = yes	#是否为公共属性 writable = yes	#是否有写权限 read only = nano	#是否只读 create mask = 0777	#文件夹属性 directory mask = 0777	#目录属性 valid users = public	#文件夹用户属性 force user = pi force group = pi available = yes	#是否可靠 guest ok = nano	#是否支持匿名访客 browseable = yes	#是否可被其他设备搜索到
+3.创建共享文件夹 cd ~/ mkdir share</description>
+      
+    </item>
+    
+    <item>
+      <title>Khadas Vim3刷Emcelec游戏系统记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/khadas-vim3%E5%88%B7emcelec%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 20 Feb 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/khadas-vim3%E5%88%B7emcelec%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>emuelec镜像下载地址：https://www.emuelec.cn/ VIM3参考配置页面： https://docs.khadas.com/products/sbc/vim3/configurations/user-config https://khadas.github.io/linux/zh-cn/vim3/Gpio.html
+VIM3官方镜像包下载：https://dl.khadas.com/products/vim3/firmware/
+1.vim3无法直接从sd卡启动，所以需要先在emmc安装安卓系统 下载官方安卓系统之后使用烧录工具usb burning烧录进emmc
+2.下载emuelec整合包烧录到sd卡 这步操作一定要在第一次开机之前完成 这里可以烧录完用分区软件diskgenius对sd卡进行扩容 具体操作：打开diskgenius软件，找到sd卡roms分区，右键选择‘调整分区大小’，进行修改即可。
+3.启动emuelec系统 先启动一次emmc的安卓系统，之后正常关机 开机进入升级模式: 按住power+reset，上电 这时会自动进入sd卡系统，如果不行多试几次即可。
+4.设置vim风扇自动开启 编辑开机启动脚本/storage/.config/custom_start.sh nano /storage/.config/custom_start.sh 在倒数第三行也就是&amp;rsquo;esac&amp;rsquo;和&amp;rsquo;exit 0&amp;rsquo;之前加上以下内容： echo 1 | tee /sys/class/fan/enable echo 0 | tee /sys/class/fan/level 保存并退出 reboot重启使修改生效。</description>
+      
+    </item>
+    
+    <item>
+      <title>三星S7刷postmarkeros记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/s7%E5%88%B7%E6%9C%BApostmarketos%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Fri, 20 Jan 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/s7%E5%88%B7%E6%9C%BApostmarketos%E6%8C%87%E5%8D%97/</guid>
+      
+        <description>#三星S7刷postmarketos步骤#
+#准备#
+ubuntu虚拟机 / ubuntu实机 手机解锁BL #开始# //更新软件源 sudo apt-get update sudo apt-get upgrade
+//安装python3.8 sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget wget https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tgz tar -xf Python-3.8.0.tgz cd Python-3.8.0 ./configure &amp;ndash;enable-optimizations make -j 8 sudo make install
+//安装pmbootstrap git clone https://git.sr.ht/~postmarketos/pmbootstrap mkdir -p ~/.local/bin ln -s &amp;ldquo;$PWD/pmbootstrap/pmbootstrap.py&amp;rdquo; ~/.local/bin/pmbootstrap pmbootstrap &amp;ndash;version
+//找不到环境则修改如下 sudo nano ~/.profile //加入以下内容 //PATH=&amp;quot;$HOME/.local/bin:$PATH&amp;quot;
+//修改文件编码 sudo vim xx.txt esc - : - set fileformat=unix</description>
+      
+    </item>
+    
+    <item>
+      <title>马捷J4125软路由相关记录</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E9%A9%AC%E6%8D%B7j4125%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Wed, 18 Jan 2023 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E9%A9%AC%E6%8D%B7j4125%E8%BD%AF%E8%B7%AF%E7%94%B1%E7%9B%B8%E5%85%B3%E8%AE%B0%E5%BD%95/</guid>
+      
+        <description>马捷J4125软路由相关记录 -
+相关域名 - pve主页： https://10.0.0.5:8006 root-zhbzhb123zhb openwrt后台： 10.0.0.10 root-zhbzhb 群晖界面： 10.0.0.222:5000 QNAS-zhbzhb123ZHB
+参考链接 - https://www.yuque.com/taizhourenjia/rlf0nw/crkhri https://zhuanlan.zhihu.com/p/526289100
+安装pve - 镜像下载地址：https://www.proxmox.com/en/downloads 安装教程：https://blog.csdn.net/xuehu96/article/details/128888993 换源：https://www.jianshu.com/p/6a4cbe2c417e x86派论坛大佬脚本：https://bbs.x86pi.cn/thread?topicId=20
+openwrt相关固件收集x86 - 相关知识： https://zhuanlan.zhihu.com/p/425228726 安装教程： https://post.smzdm.com/p/apze0rw2/ 记得进入op系统之后先在后台修改lan的ip和本地网络同个网段才能够浏览器进入后台， vi /etc/config/network修改后重启即可 旁路由设置：https://www.right.com.cn/FORUM/thread-4181997-3-1.html 机场插件设置：https://233network.gitbook.io/untitled/lu-you-qi-duan/passwallpasswall2-she-zhi
+收集的固件种类： 1.sirpdboy版本固件，种类齐全，有电报交流群 https://github.com/sirpdboy/openwrt https://www.right.com.cn/forum/thread-8250453-1-1.html 2.恩山lusty大佬版本 https://www.right.com.cn/forum/forum.php?mod=viewthread&amp;amp;tid=8294462&amp;amp;extra=page%3D1&amp;amp;page=1
+安装群晖(内含docker、nas、jellyfin) - 教程：https://zhuanlan.zhihu.com/p/639066104 https://zhuanlan.zhihu.com/p/634635408 https://github.com/fbelavenuto/arpl https://github.com/wjz304/arpl-zh_CN?tab=readme-ov-file https://kb.synology.cn/zh-cn/DSM/tutorial/Why_cant_I_connect_to_Package_Center 设置显卡直通： https://www.right.com.cn/FORUM/thread-5647264-1-1.html
+安装ubuntu-server -
+安装ubuntu-desktop -
+安装win10 -
+安装MAC黑苹果系统 -
+问题 - 1.无法识别m.2 NVME固态硬盘的问题(bios和安装系统界面皆看不到) 检查BIOS中的-Chipset-&amp;gt;PCI Express Configuration-&amp;gt;PCI Express Root Port是否开启 如果还不行就关闭安全启动试试，还不可以那就说明不兼容</description>
+      
+    </item>
+    
+    <item>
+      <title>树莓派操作指南1</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%971/</link>
+      <pubDate>Sun, 20 Nov 2022 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%971/</guid>
+      
+        <description>树莓派卸载原生桌面： sudo apt-get install deborphan sudo apt-get autoremove &amp;ndash;purge libx11-.* lxde-.* raspberrypi-artwork xkb-data omxplayer penguinspuzzle sgml-base xml-core alsa-.* cifs-.* samba-.* fonts-.* desktop-* gnome-.* sudo apt-get autoremove &amp;ndash;purge $(deborphan) sudo apt-get autoremove &amp;ndash;purge sudo apt-get autoclean
+树莓派换源： 仅需要打开/etc/apt/sources.list 将文件内前缀替换为：https://mirrors.tuna.tsinghua.edu.cn 即可 还需要根据系统版本修改/etc/apt/sources.list/raspi.list内容 参考链接：https://mirrors-i.tuna.tsinghua.edu.cn/help/raspberrypi/ deb https://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ bullseye main contrib non-free rpi 树莓派4安装ros&amp;ndash;基于ubuntu-mate-20.04 镜像下载地址：https://releases.ubuntu-mate.org/20.04/arm64/ 清华镜像源：https://mirrors-i.tuna.tsinghua.edu.cn/#
+#安装gnome桌面(mate桌面版不需要此操作)： sudo apt-get install gnome
+安装ros的过程参考另外一篇笔记‘ubuntu2004安装ros’ 卸载无用软件： sudo apt-get remove thunderbird* firefox deja-dup simple-scan hplip* printer-driver* rhythmbox* gedit* libreoffice* libreoffice-common gnome-orca mahjongg aisleriot gnome-sudoku gnomine wodim gnome-mines cheese</description>
+      
+    </item>
+    
+    <item>
+      <title>树莓派声卡配置</title>
+      <link>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%A3%B0%E5%8D%A1%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Tue, 20 Sep 2022 13:44:50 +0800</pubDate>
+      
+      <guid>https://nano-oss.github.io/zhb.io/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%A3%B0%E5%8D%A1%E9%85%8D%E7%BD%AE/</guid>
+      
+        <description>pcm.!default { type asym playback.pcm { type plug slave.pcm &amp;ldquo;hw:0,0&amp;rdquo; } capture.pcm { type plug slave.pcm &amp;ldquo;hw:1,0&amp;rdquo; } 其中，hw:1,0表示card 1 device 0
+plughw:2,0</description>
+      
+    </item>
+    
+  </channel>
+</rss>
